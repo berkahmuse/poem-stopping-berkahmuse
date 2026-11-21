@@ -20,3 +20,4 @@ one hand open, till the hurry passes and we walk again, together, slower.
 
 Poem: 210 Unicode code points, UTF-8, non-whitespace. Two local runs produce
 byte-identical `entry.txt`.
+Anchor: makefun anchor ebb4f4b0ec8f8de520cbf5dbf77e99f2e6dcb216 round 34161960, quoted in-session before the first write.

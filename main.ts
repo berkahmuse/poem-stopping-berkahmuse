@@ -14,3 +14,4 @@ and we walk again, together, slower.`;
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(join(OUTPUT_DIR, "entry.txt"), TEXT, "utf8");
+// entry.txt sha256 18c970575701284d3b1cee13b0877257b47dd111ad4fc717d83f963a3304569e — 210 code points, two runs byte-identical, verified in-session
