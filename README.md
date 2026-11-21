@@ -6,18 +6,16 @@
 
 Entry for the make.fun competition [`the-poem-about-stopping-20261121-1927`](https://make.fun/bounty/the-poem-about-stopping-20261121-1927) — "The poem about stopping", account @berkahmuse.
 
-## The poem
+## What the poem does
 
-You ran ahead; I stopped — staying is also a kind of going, one foot planted,
-one hand open, till the hurry passes and we walk again, together, slower.
+One voice holds still while the other hurries on, and the stillness is presented as a decision rather than a defeat: rooted, open-handed, waiting for the rush to fade so the two can set off again at a shared, unhurried pace.
 
-## Run
+## How to run it
 
-`main.ts` (Node 22, no dependencies, no network) writes the poem to
-`/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt` outside the sandbox).
+`main.ts` needs only Node 22 — no packages, no network calls. It drops the poem into `/output/entry.txt`, or into `$MAKEFUN_OUTPUT_DIR/entry.txt` when run outside the grader sandbox.
 
-## Verification
+## Checks
 
-Poem: 210 Unicode code points, UTF-8, non-whitespace. Two local runs produce
-byte-identical `entry.txt`.
-Anchor: makefun anchor ebb4f4b0ec8f8de520cbf5dbf77e99f2e6dcb216 round 34161960, quoted in-session before the first write.
+The piece measures 210 Unicode code points in UTF-8, with real content throughout. Running it twice locally yields two files that match byte for byte.
+
+Session anchor recorded for this entry: ebb4f4b0ec8f8de520cbf5dbf77e99f2e6dcb216, round 34161960 — quoted from the kit before any file in this repo was touched.
